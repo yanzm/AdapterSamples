@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="yanzm.example.adaptersamples"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".AdapterSamples"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SimpleAdapterSample"  android:label="@string/app_name" />
+        <activity android:name=".SimpleAdapterSample2" android:label="@string/app_name"                  
+                  android:theme="@android:style/Theme.Light" />
+        <activity android:name=".ArrayAdapterSample"   android:label="@string/app_name" />
+        <activity android:name=".ArrayAdapterSample2"  android:label="@string/app_name" />
+        <activity android:name=".ArrayAdapterSample3"  android:label="@string/app_name" />
+        <activity android:name=".ArrayAdapterSample4"  android:label="@string/app_name" />
+        <activity android:name=".ArrayAdapterSample5"  android:label="@string/app_name" />
+        <activity android:name=".ArrayAdapterSample6"  android:label="@string/app_name" />
+        <activity android:name=".ExtendsArrayAdapterSample"  android:label="@string/app_name" 
+        		  android:theme="@android:style/Theme.Light" />
+        <activity android:name=".ExtendsArrayAdapterSample2"  android:label="@string/app_name" 
+        		  android:theme="@android:style/Theme.Light" />
+        <activity android:name=".SimpleCursorAdapterSample"  android:label="@string/app_name" />
+        <activity android:name=".SimpleExpandableListAdapterSample"  android:label="@string/app_name" />
+        <activity android:name=".ExtendsArrayAdapterSample3"  android:label="@string/app_name" 
+        		  android:theme="@android:style/Theme.Light" />
+    </application>
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+</manifest> 
